@@ -4,8 +4,8 @@ import fitbit
 import pandas as pd
 import datetime
 
-from fitbit_alerter.config import Config
-from fitbit_alerter.gather_keys_oath2 import OAuth2Server
+from fitbit_tracker.config import Config
+from fitbit_tracker.gather_keys_oath2 import OAuth2Server
 
 config = Config()
 CLIENT_ID = config.client_id

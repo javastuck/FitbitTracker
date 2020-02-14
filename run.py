@@ -1,4 +1,4 @@
-from fitbit_alerter.fitbit_client import FitbitClient
+from fitbit_tracker.fitbit_client import FitbitClient
 
 if __name__ == "__main__":
     client = FitbitClient()
